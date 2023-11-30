@@ -1,0 +1,45 @@
+/* CSS untuk container utama */
+.container {
+    width: 80%; /* Lebar kontainer */
+    margin: 0 auto; /* Pusatkan kontainer di tengah halaman */
+    padding: 20px; /* Ruang dalam kontainer */
+    background-color: #f0f0f0; /* Warna latar belakang */
+    border: 1px solid #ddd; /* Garis tepi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* CSS untuk header */
+.header {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    padding: 10px; /* Ruang dalam header */
+}
+
+/* CSS untuk judul */
+.header h1 {
+    margin: 0; /* Hapus margin bawaan */
+}
+
+/* CSS untuk bagian utama */
+.main {
+    padding: 10px; /* Ruang dalam bagian utama */
+}
+
+/* CSS untuk footer */
+.footer {
+    background-color: #af8f8f; /* Warna latar belakang footer */
+    color: #000000; /* Warna teks footer */
+    padding: 10px; /* Ruang dalam footer */
+    text-align: center; /* Teks di tengah footer */
+}
+
+/* CSS untuk tautan hak cipta */
+.footer a {
+    color: #513939; /* Warna tautan hak cipta */
+    text-decoration: none; /* Hapus garis bawah tautan */
+}
+
+/* CSS untuk tautan hak cipta saat disorot */
+.footer a:hover {
+    text-decoration: underline; /* Garis bawah saat disorot */
+}
